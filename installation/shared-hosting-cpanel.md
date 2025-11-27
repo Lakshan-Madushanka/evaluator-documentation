@@ -32,9 +32,6 @@ Direct uploading through cPanel can be time consuming and error-prone. We recomm
 {% endhint %}
 
 5. **Unzip** the `evaluator.zip` file in your hosting directory.
-6. **Create a `.env` file** in the same folder.
-   * Make sure the file **has no extension** (it should be just `.env`).
-7. **Copy the contents** of the `*.env.production.example` file into this new `.env` file.
 
 ### Step 2 - Setting up project details in `.env`
 
@@ -151,7 +148,7 @@ Keeping this structure intact is crucial for security reasons. However, you can 
 3. You will see a success message once the setup is complete.
 
 {% hint style="info" %}
-Refer [installation](broken-reference) issue for common issues.
+Refer [installation](/broken/pages/aOjs4gC5WzIpifbjuGsn) issue for common issues.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/Screenshot from 2025-10-27 16-29-44.png" alt=""><figcaption></figcaption></figure>
