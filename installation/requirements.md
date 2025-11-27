@@ -17,11 +17,11 @@ layout:
 
 # 📋 Requirements
 
-| Requirement | Version                         |
-| ----------- | ------------------------------- |
-| PHP         |  >= 8.3 (8.3 or higher)         |
-| Server      | Nginx                           |
-| Database    | MySQL 5.7.7+ or MariaDB 10.2.2+ |
+| Requirement | Version                                                                                                                          |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| PHP         |  >= 8.3 (8.3 or higher)                                                                                                          |
+| Server      | Nginx                                                                                                                            |
+| Database    | MySQL 5.7.7+ or MariaDB 10.2.2+ recommended refer [here](../faq/installation.md#support-older-mysql-versions) for older versions |
 
 ### PHP Extensions
 
@@ -55,6 +55,3 @@ chown -R www-data:www-data storage bootstrap/cache public
 ```
 
 For Windows, make sure these directories allow **write access** via file explorer or CMD.
-
-\
-\

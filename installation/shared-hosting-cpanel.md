@@ -93,11 +93,13 @@ Add manually database details via **.env** file, follow these steps:
 * Set Database Connection Details: Update the values of the following variables to match your database configuration:
 
 ```
-Database Host = localhost 
-Database Port = 3306 
-Database Name = your_database_name 
-Database User = your_database_user_name 
-Database Password = your_database_password
+DB_CONNECTION=mysql
+DB_HOST=localhost 
+DB_PORT=3306 
+DB_DATABASE=your_database_name 
+DB_USERNAME=your_database_user_name 
+DB_PASSWORD=your_database_password
+SUPPORT_OLDER_DB_VERSIONS=false -> set this to true for older db version
 ```
 
 * `DB_CONNECTION`: Specifies the database connection driver. For MySQL, use `mysql`.
@@ -106,6 +108,7 @@ Database Password = your_database_password
 * `DB_DATABASE`: Specifies the name of the database you want to connect to.
 * `DB_USERNAME`: Specifies the username for accessing the database.
 * `DB_PASSWORD`: Specifies the password for the database user.
+* `SUPPORT_OLDER_DB_VERSIONS`: Set this to `true` if you are using MySQL version below 5.7.7 or MariaDB version below 10.2.2
 * Save the Changes: Save the `.env` file after updating the database configuration.
 
 ### Step 6 - Setup Email&#x20;
