@@ -22,16 +22,24 @@ This section will guide you **step by step** through the process of deploying **
 ### Step 1 - Upload the Files
 
 1. **Download** the project folder `evaluator.zip` from **CodeCanyon**.
+   1. Extract the `evaluator.zip`
+   2.  As You can see the folder structure like below,
+
+       ```
+       Evaluator
+       ├── project.zip
+       ├── README.pdf
+       ```
 2. **Log in** to your **cPanel** account.
 3. Go to your hosting’s **root directory**.
    * For most shared hosting services, this is usually the **public\_html** folder (The exact folder name may vary depending on your hosting provider).
-4. **Upload** the `evaluator.zip` file to this folder.
+4. **Upload** the `project.zip` file to this folder.
 
 {% hint style="success" %}
 Direct uploading through cPanel can be time consuming and error-prone. We recommend using a free FTP client such as **FileZilla** for a faster and more reliable upload process.
 {% endhint %}
 
-5. **Unzip** the `evaluator.zip` file in your hosting directory.
+5. **Unzip** the `project.zip` file in your hosting directory.
 
 ### Step 2 - Setting up project details in `.env`
 
