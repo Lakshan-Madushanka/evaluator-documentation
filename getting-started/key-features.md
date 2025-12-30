@@ -29,7 +29,7 @@ layout:
   * Revocable by admin
 * ⏰ **Timed Quizzes** – Auto-submit after timeout; refreshing or closing invalidates the attempt.
 * 🖼️ **Image Attachments** – Add and manage images for both questions and answers via an advanced image manager.
-* 🖨️ **Printable Quizzess** – Generate A4-size quiz papers for offline use.
+* 🖨️ **Printable Quizzes** – Generate A4-size quiz papers for offline use.
 * ⚡ **Real-Time Evaluation** – Instant feedback on scores, accuracy, and performance metrics.
 * 📋 **Advanced Evaluation** – Admins can review detailed answers; printable summaries available.
 * 🔎 **Elegant Data Tables** – Filter, sort, and manage data efficiently.
